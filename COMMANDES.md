@@ -15,4 +15,6 @@ git push -u origin ma-fonctionnalite :Publie la branche sur GitHub
 git switch main: Revenir sur main
 git merge ma-fonctionnalite : Fusionner les branches pour provoquer le conflit
 git log --oneline --graph --all : Affichez l'historique graphique pour visualiser la fusion 
+git push origin main :publier la branche main sur le github 
 git merge --abort : annuler une fusion en cours 
+git branch -d feature/contact : supprimer la branche locale après fusion
